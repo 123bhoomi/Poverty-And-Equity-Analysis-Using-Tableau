@@ -1,0 +1,1175 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='PovStatsCountry' inline='true' name='federated.0i1967l0ep986f1gszpa00kbdhai' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='PovStatsCountry' name='textscan.0y3gboz0995g2v1gt9k8701em1ug'>
+            <connection class='textscan' directory='C:/Users/Lenovo/Downloads' filename='PovStatsCountry.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0y3gboz0995g2v1gt9k8701em1ug' name='PovStatsCountry.csv' table='[PovStatsCountry#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country Code' ordinal='0' />
+            <column datatype='string' name='Short Name' ordinal='1' />
+            <column datatype='string' name='Table Name' ordinal='2' />
+            <column datatype='string' name='Long Name' ordinal='3' />
+            <column datatype='string' name='2-alpha code' ordinal='4' />
+            <column datatype='string' name='Currency Unit' ordinal='5' />
+            <column datatype='string' name='Special Notes' ordinal='6' />
+            <column datatype='string' name='Region' ordinal='7' />
+            <column datatype='string' name='Income Group' ordinal='8' />
+            <column datatype='string' name='WB-2 code' ordinal='9' />
+            <column datatype='string' name='National accounts base year' ordinal='10' />
+            <column datatype='integer' name='National accounts reference year' ordinal='11' />
+            <column datatype='string' name='SNA price valuation' ordinal='12' />
+            <column datatype='string' name='Lending category' ordinal='13' />
+            <column datatype='string' name='Other groups' ordinal='14' />
+            <column datatype='string' name='System of National Accounts' ordinal='15' />
+            <column datatype='string' name='Alternative conversion factor' ordinal='16' />
+            <column datatype='string' name='PPP survey year' ordinal='17' />
+            <column datatype='string' name='Balance of Payments Manual in use' ordinal='18' />
+            <column datatype='string' name='External debt Reporting status' ordinal='19' />
+            <column datatype='string' name='System of trade' ordinal='20' />
+            <column datatype='string' name='Government Accounting concept' ordinal='21' />
+            <column datatype='string' name='IMF data dissemination standard' ordinal='22' />
+            <column datatype='string' name='Latest population census' ordinal='23' />
+            <column datatype='string' name='Latest household survey' ordinal='24' />
+            <column datatype='string' name='Source of most recent Income and expenditure data' ordinal='25' />
+            <column datatype='string' name='Vital registration complete' ordinal='26' />
+            <column datatype='string' name='Latest agricultural census' ordinal='27' />
+            <column datatype='integer' name='Latest industrial data' ordinal='28' />
+            <column datatype='integer' name='Latest trade data' ordinal='29' />
+            <column datatype='string' name='F31' ordinal='30' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Short Name]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Short Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Long Name]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Long Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2-alpha code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[2-alpha code]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>2-alpha code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Currency Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Currency Unit]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Currency Unit</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Special Notes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Special Notes]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Special Notes</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Income Group]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Income Group</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WB-2 code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WB-2 code]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>WB-2 code</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>National accounts base year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[National accounts base year]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>National accounts base year</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>National accounts reference year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[National accounts reference year]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>National accounts reference year</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNA price valuation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SNA price valuation]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>SNA price valuation</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lending category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lending category]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Lending category</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other groups</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Other groups]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Other groups</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>System of National Accounts</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[System of National Accounts]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>System of National Accounts</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alternative conversion factor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Alternative conversion factor]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Alternative conversion factor</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPP survey year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PPP survey year]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>PPP survey year</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Balance of Payments Manual in use</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Balance of Payments Manual in use]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Balance of Payments Manual in use</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>External debt Reporting status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[External debt Reporting status]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>External debt Reporting status</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>System of trade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[System of trade]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>System of trade</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Government Accounting concept</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Government Accounting concept]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Government Accounting concept</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IMF data dissemination standard</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IMF data dissemination standard]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>IMF data dissemination standard</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latest population census</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Latest population census]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Latest population census</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latest household survey</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Latest household survey]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Latest household survey</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source of most recent Income and expenditure data</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source of most recent Income and expenditure data]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Source of most recent Income and expenditure data</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vital registration complete</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vital registration complete]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Vital registration complete</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latest agricultural census</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Latest agricultural census]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Latest agricultural census</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latest industrial data</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Latest industrial data]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Latest industrial data</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latest trade data</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Latest trade data]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>Latest trade data</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[PovStatsCountry.csv]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='2-Alpha Code' datatype='string' name='[2-alpha code]' role='dimension' type='nominal' />
+      <column caption='Cleaned Country Name' datatype='string' name='[Calculation_208010042372419584]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='TRIM(PROPER([Short Name]))' />
+      </column>
+      <column caption='Cleaned Region' datatype='string' name='[Calculation_208010042377232385]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='TRIM(PROPER([Region]))' />
+      </column>
+      <column caption='Is Country' datatype='string' name='[Calculation_208010042383646722]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([Short Name], &quot;income&quot;)&#13;&#10;   OR [Short Name] IN (&quot;World&quot;, &quot;IDA total&quot;, &quot;IDA countries classified as fragile situations&quot;, &quot;Fragile and conflict affected situations&quot;)&#13;&#10;   OR [Short Name] = [Region]&#13;&#10;THEN &quot;No&quot;&#13;&#10;ELSE &quot;Yes&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='PovStatsCountry.csv' datatype='table' name='[__tableau_internal_object_id__].[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Lenovo/AppData/Local/Temp/TableauTemp/#TableauTemp_1nux8ae07vtxpd1dghcdt1kabx7m.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/27/2025 04:01:57 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Code</remote-alias>
+              <ordinal>0</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>184</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Short Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Short Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Short Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>184</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>184</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Long Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>184</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2-alpha code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[2-alpha code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2-alpha code</remote-alias>
+              <ordinal>4</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>184</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Currency Unit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Currency Unit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Currency Unit</remote-alias>
+              <ordinal>5</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>128</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Special Notes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Special Notes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Special Notes</remote-alias>
+              <ordinal>6</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>7</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Income Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Income Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Income Group</remote-alias>
+              <ordinal>8</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WB-2 code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WB-2 code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WB-2 code</remote-alias>
+              <ordinal>9</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>184</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>National accounts base year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[National accounts base year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>National accounts base year</remote-alias>
+              <ordinal>10</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>National accounts reference year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[National accounts reference year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>National accounts reference year</remote-alias>
+              <ordinal>11</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SNA price valuation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SNA price valuation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SNA price valuation</remote-alias>
+              <ordinal>12</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lending category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Lending category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lending category</remote-alias>
+              <ordinal>13</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Other groups</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Other groups]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Other groups</remote-alias>
+              <ordinal>14</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>System of National Accounts</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[System of National Accounts]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>System of National Accounts</remote-alias>
+              <ordinal>15</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Alternative conversion factor</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Alternative conversion factor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Alternative conversion factor</remote-alias>
+              <ordinal>16</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PPP survey year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PPP survey year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PPP survey year</remote-alias>
+              <ordinal>17</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Balance of Payments Manual in use</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Balance of Payments Manual in use]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Balance of Payments Manual in use</remote-alias>
+              <ordinal>18</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>External debt Reporting status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[External debt Reporting status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>External debt Reporting status</remote-alias>
+              <ordinal>19</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>System of trade</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[System of trade]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>System of trade</remote-alias>
+              <ordinal>20</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Government Accounting concept</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Government Accounting concept]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Government Accounting concept</remote-alias>
+              <ordinal>21</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IMF data dissemination standard</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IMF data dissemination standard]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IMF data dissemination standard</remote-alias>
+              <ordinal>22</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latest population census</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Latest population census]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latest population census</remote-alias>
+              <ordinal>23</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latest household survey</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Latest household survey]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latest household survey</remote-alias>
+              <ordinal>24</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>64</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Source of most recent Income and expenditure data</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Source of most recent Income and expenditure data]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Source of most recent Income and expenditure data</remote-alias>
+              <ordinal>25</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>67</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vital registration complete</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Vital registration complete]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vital registration complete</remote-alias>
+              <ordinal>26</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latest agricultural census</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Latest agricultural census]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latest agricultural census</remote-alias>
+              <ordinal>27</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latest industrial data</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Latest industrial data]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latest industrial data</remote-alias>
+              <ordinal>28</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latest trade data</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Latest trade data]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latest trade data</remote-alias>
+              <ordinal>29</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F31</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F31]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F31</remote-alias>
+              <ordinal>30</ordinal>
+              <family>PovStatsCountry.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='PovStatsCountry.csv' id='PovStatsCountry.csv_2B21F52BC04E4377A17C87CE689366F4'>
+            <properties context=''>
+              <relation connection='textscan.0y3gboz0995g2v1gt9k8701em1ug' name='PovStatsCountry.csv' table='[PovStatsCountry#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Country Code' ordinal='0' />
+                  <column datatype='string' name='Short Name' ordinal='1' />
+                  <column datatype='string' name='Table Name' ordinal='2' />
+                  <column datatype='string' name='Long Name' ordinal='3' />
+                  <column datatype='string' name='2-alpha code' ordinal='4' />
+                  <column datatype='string' name='Currency Unit' ordinal='5' />
+                  <column datatype='string' name='Special Notes' ordinal='6' />
+                  <column datatype='string' name='Region' ordinal='7' />
+                  <column datatype='string' name='Income Group' ordinal='8' />
+                  <column datatype='string' name='WB-2 code' ordinal='9' />
+                  <column datatype='string' name='National accounts base year' ordinal='10' />
+                  <column datatype='integer' name='National accounts reference year' ordinal='11' />
+                  <column datatype='string' name='SNA price valuation' ordinal='12' />
+                  <column datatype='string' name='Lending category' ordinal='13' />
+                  <column datatype='string' name='Other groups' ordinal='14' />
+                  <column datatype='string' name='System of National Accounts' ordinal='15' />
+                  <column datatype='string' name='Alternative conversion factor' ordinal='16' />
+                  <column datatype='string' name='PPP survey year' ordinal='17' />
+                  <column datatype='string' name='Balance of Payments Manual in use' ordinal='18' />
+                  <column datatype='string' name='External debt Reporting status' ordinal='19' />
+                  <column datatype='string' name='System of trade' ordinal='20' />
+                  <column datatype='string' name='Government Accounting concept' ordinal='21' />
+                  <column datatype='string' name='IMF data dissemination standard' ordinal='22' />
+                  <column datatype='string' name='Latest population census' ordinal='23' />
+                  <column datatype='string' name='Latest household survey' ordinal='24' />
+                  <column datatype='string' name='Source of most recent Income and expenditure data' ordinal='25' />
+                  <column datatype='string' name='Vital registration complete' ordinal='26' />
+                  <column datatype='string' name='Latest agricultural census' ordinal='27' />
+                  <column datatype='integer' name='Latest industrial data' ordinal='28' />
+                  <column datatype='integer' name='Latest trade data' ordinal='29' />
+                  <column datatype='string' name='F31' ordinal='30' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='PovStatsCountry' name='federated.0i1967l0ep986f1gszpa00kbdhai' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i1967l0ep986f1gszpa00kbdhai'>
+            <column caption='Is Country' datatype='string' name='[Calculation_208010042383646722]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([Short Name], &quot;income&quot;)&#13;&#10;   OR [Short Name] IN (&quot;World&quot;, &quot;IDA total&quot;, &quot;IDA countries classified as fragile situations&quot;, &quot;Fragile and conflict affected situations&quot;)&#13;&#10;   OR [Short Name] = [Region]&#13;&#10;THEN &quot;No&quot;&#13;&#10;ELSE &quot;Yes&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Short Name]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_208010042383646722]' derivation='None' name='[none:Calculation_208010042383646722:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i1967l0ep986f1gszpa00kbdhai].[none:Calculation_208010042383646722:nk]'>
+            <groupfilter function='member' level='[none:Calculation_208010042383646722:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0i1967l0ep986f1gszpa00kbdhai].[none:Calculation_208010042383646722:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{167596E3-73A3-40CE-9FF5-A4AFBF9CE9D6}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0i1967l0ep986f1gszpa00kbdhai].[none:Calculation_208010042383646722:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{389A2A5A-1195-4770-999B-AC7025C3F547}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAFeklEQVR4nO3bSVfbVhyG8fdKssRMwRkakrZkOO33/x7ddNFNmoTQMjnENjE2tmUNXTht
+      BqdtejD4+LzPb2UE+Pw3D9yrK4e6rmsBpqJFDwAs0lwDyPN8nm8H3Li5BtDv9+f5dsCNYwkE
+      awQAawQAawQAawQAawQAawQAawQAawQAawQAawQAawQAa8lfL/I8v/bDbDwMh2UT5vmBmE6n
+      o93d3Xm9HXDjWALBGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHA
+      GgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHA
+      GgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHA
+      GgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHA
+      GgHAGgHAGgHAGgHAGgHAGgHAGgHAWvLpl6UOXx6oihI1793X5vqqwmLmAm7FZ/8BShVq6NHe
+      tzo9PNBoUmo0HOpdp6O8KNR521LrvK2qqnU1uNSb1qm6vcFiJgfmYGYJFBTUyFb08O66LgYT
+      /frLz7ocl+q3z3SZx0qrKx29udDhwYGy9U21Tw51NakXMTtwbf+4BxgMC2WNWGvbTT18cFej
+      ca6dnW19s7uj0XCoOEm1sbGhzfVMRVnd5szA3Hy2Bwga9Np68dtIobGux2uJummmIOnOnaZe
+      Hh4oVqnm3r7OXp3o9auXyougn7J4IcMD1xXquv7q9UtVlaoVFEeRXjx/rv1nzxSHSOH9TrnT
+      6Wh3d/emZgXmLvnvH/kgij78pf9+f19xFHGXCEvtfwXwsTRN5zkHsBAzm+C6rtRtn+tqlKso
+      yplfGI/Hf7+uykL5pLjZCYEbNBPAVftYnVFQQ4Xa7/qSpKosVVXTrcLx8ZGkaSj51Tu1Or1b
+      HBeYr5klUOu0pX6yreFWovGw0NXFWx23e6rKSo+fPpEkFeOBXhz8oUSFku29Wx8amJeZAJp3
+      72lr84G20qFOWmOd9dsqozXVk1zDfLrc6b491/3vnmi97qvFQTCW2BdPgqe3NYNCCGo2m6pr
+      KVtZVZrECiFoY3NDx69f6ffjU1U194GwvL7qHKCqKklBURQ+ulZKij65xjkAls1X3QaNotkn
+      Jj4+EwCWFZ8HgLWZAC4uuiornu6Eh5kA2m/PlY9HGgzHqiWVRa5ef6C6nu4F6qrUpChVTnL1
+      LqfXgWU1uwcoxjppnWvc7+mHp491+PpYza1Und5IZfdIw2hFDx/c09npuXa2MnUuR9rfay5g
+      dOD6ZgNIMn336JG6Z0caXXY1GOXK0qAqDBXFiZ4++1EavNFgNFaaBpVhuICxgfn4101wur6t
+      1TTW6uqadna2FKJYUQjK1ja1liVaXZleB5bVzDlAWZaKokh1XSuEoLKYaFKUSrNMqmtFUawQ
+      pLKYKJ8USrNM8fvbpJwDYNnMLIHieHp/P7z/lEvSSJU0Zn8xThpa/dI3gCXCOQCsEQCsEQCs
+      EQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCs
+      EQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCs
+      EQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCs
+      EQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCs
+      /QnNYGj2XI3qFQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
